@@ -4,7 +4,7 @@ Notes:
 Predict.py takes in a train.txt and test.txt file to predict values.
 This is not for time series.
 This program does not take categorical variables. It can only take numerical variables.
-This program has a major flaw, in which it does not detect whether the prediction is good or not. Neither F-test for the regression nor T-tests for each  has been computed in the following program. Meaning the Regression Model may not be significant and not all the attributes may be significant for predicting. Also the Regression conditions are not checked. Therefore, this program may not provide accurate predictions. 
+This program has a major flaw, in which it does not detect whether the prediction is good or not. Neither F-test for the regression nor T-tests for each independent variable has been computed in the following program. Meaning the Regression Model may not be significant and not all the attributes may be significant for predicting. Also the Regression conditions are not checked. Therefore, this program may not provide accurate predictions. 
 
 You can run the program by:
 python3 Predict.py <trainfile.txt> <testfile.txt>
